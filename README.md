@@ -1,2 +1,1 @@
-# cogniitewebsite
-react
+# cogniitec_frontend_new
