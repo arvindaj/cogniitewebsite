@@ -7,6 +7,7 @@ import Services from "../pages/Services/Services.jsx";
 import BlogsDetails from "../components/blog/BlogsDetails.jsx";
 import About from "../pages/About/About.jsx";
 import Blog from "../pages/Blogs/Blog.jsx";
+import ScrollToTop from "../components/ScrollToTop.jsx";
 
 function AppRouter() {
   return (
@@ -14,6 +15,7 @@ function AppRouter() {
       {" "}
       <Navbar />
       <Router>
+         <ScrollToTop /> 
         <Routes>
           {/* Layout wrapper */}
           <Route>
